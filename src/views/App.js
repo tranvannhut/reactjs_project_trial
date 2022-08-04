@@ -9,6 +9,7 @@ import Home from "./Example/Home";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ListUser from "./User_Api/ListUser";
 import DetailUser from "./User_Api/DetailUser";
+import NoMatch from "./Example/NoMatch";
 function App() {
   return (
     <Router>
@@ -37,6 +38,9 @@ function App() {
             </Route>
             <Route path="/users/:id">
               <DetailUser />
+            </Route>
+            <Route>
+              <NoMatch />
             </Route>
           </Switch>
         </header>
