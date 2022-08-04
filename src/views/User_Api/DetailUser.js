@@ -31,7 +31,7 @@ class DetailUser extends React.Component {
             <div>User's First Name: {user.first_name}</div>
             <div>User's Last Name: {user.last_name}</div>
             <div>
-              Image user: <img src={user.avatar} />
+              <img src={user.avatar} />
             </div>
             <div>
               <button
