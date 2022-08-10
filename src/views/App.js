@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "../assets/image/logo.png";
 import "./App.scss";
 import MyComponent from "./Example/MyComponent";
 import ListTodo from "./Todos/ListTodo";
